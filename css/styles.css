@@ -21,6 +21,11 @@ p, h1, h2, h3, h4, h5, h6 {
     padding: 0%;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
 body {
     color: var(--priority-color);
     background-color:var(--priority-bgr-color);
@@ -91,6 +96,7 @@ body {
     line-height: 0.6;
     text-decoration: none;
     padding: 24px 0;
+    display: block;
 }
 
 .header-link:hover {
@@ -115,6 +121,7 @@ body {
     font-style: normal;
     text-decoration: none;
     padding: 24px 0;
+    display: block;
 }
 
 .contact:hover {
@@ -222,8 +229,10 @@ body {
 }
 
 .team-div {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    /*padding-top: 32px;
+    padding-bottom: 32px;*/
+    padding: 32px 16px;
+
 }
 
 .paragraph-team {
@@ -311,6 +320,8 @@ body {
  
 .paragraph {
     color: var(--priority-color);
+    font-size: 16px;
+    line-height: 24px;
 }
 
 /* .paragraph.filter {
@@ -376,7 +387,5 @@ body {
 }
 
 .filter-div {
-    margin-top: 32px;
-    margin-bottom: 32px;
-    margin-left: 16px;
+    padding: 32px 16px;
 }
