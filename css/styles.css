@@ -452,11 +452,12 @@ body {
 }
 
 .logo-icon:hover {
-    fill: var(--color-active);
+    color: var(--color-active);
 }
 
 .logo-link:hover {
-    border: 1px solid var(--color-active);  
+    border: 1px solid var(--color-active);
+    color: var(--color-active);  
 }
 
 .markers.company-item {
@@ -468,6 +469,7 @@ body {
 .logo-clients {
     height: 56px;
     width: 104px;
+    color: var(--border);
 }
 
 .social-icon {
@@ -488,7 +490,7 @@ body {
 
 .social-link:hover {
     background-color: var(--color-active);
-    fill: var(--color-active);
+    color: var(--color-active);
 }
 
 .markers.social-item {
